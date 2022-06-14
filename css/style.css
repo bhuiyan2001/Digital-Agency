@@ -1,0 +1,984 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================
+              Common css end
+========================================= */
+/* =========================================
+              Header part end
+========================================= */
+#head {
+    background: #0256FF;
+    padding: 14px 0;
+}
+
+#head .head_text {
+    justify-content: center;
+}
+
+#head .head_text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#head .head_text a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: underline;
+}
+
+/* =========================================
+              Header part end
+========================================= */
+/* =========================================
+              Menu part start
+========================================= */
+.main_menu {
+    margin: 65px 0;
+}
+
+.main_menu ul li a {
+    margin: 0 18px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #000;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li {
+    position: relative;
+}
+
+.main_menu ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 186px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.main_menu ul li ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 10px;
+}
+
+.main_menu ul li a i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.main_menu ul li a:hover {
+    color: #0256FF;
+}
+
+.main_menu ul li a .active {
+    color: #0256FF;
+}
+
+.main_menu .button a {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    width: 135px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    color: #f45c20;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .button a:hover {
+    background: #f45c20;
+    color: #fff;
+}
+
+/* =========================================
+              Menu part end
+========================================= */
+/* =========================================
+              About part start
+========================================= */
+#about {
+    margin-bottom: 115px;
+}
+
+#about .about_img1,
+#about .about_img2{
+    width: 48%;
+}
+#about .about_img1 img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#about .about_img2 img {
+    margin-top: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#about .about_text h4 {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#about .about_text h4 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#about .about_text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 40px;
+}
+
+#about .about_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    width: 268px;
+    display: inline-block;
+}
+
+#about .about_text p span {
+    text-decoration: underline;
+}
+
+#about .about_text>a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 20px;
+    color: #0256FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#about .about_text>a:hover {
+    background: #0256FF;
+    color: #fff;
+}
+
+#about .about_text .play_button a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #0256FF;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-right: 20px;
+}
+
+#about .about_text .play_button a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 45px;
+}
+
+/* =========================================
+              About part end
+========================================= */
+/* =========================================
+              Logo part start
+========================================= */
+#logo {
+    margin-bottom: 115px;
+}
+
+#logo p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#logo ul {
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#logo ul li:nth-child(1) {
+    width: 50px;
+    height: 53px;
+}
+
+#logo ul li:nth-child(2) {
+    width: 83px;
+    height: 36px;
+}
+
+#logo ul li:nth-child(3) {
+    width: 133px;
+    height: 56px;
+}
+
+#logo ul li:nth-child(4) {
+    width: 70px;
+    height: 60px;
+}
+
+#logo ul li:nth-child(5) {
+    width: 45px;
+    height: 62px;
+}
+
+#logo ul li:nth-child(6) {
+    width: 70px;
+    height: 60px;
+}
+
+#logo ul li:nth-child(7) {
+    width: 62px;
+    height: 58px;
+}
+
+/* =========================================
+              Logo part end
+========================================= */
+/* =========================================
+              Banner part start
+========================================= */
+#banner {
+    background: url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+#banner .banner_text {
+    background: #fff;
+    padding: 85px;
+    width: 515px;
+    box-shadow: 0px 2px 6px -5px #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    top: 120px;
+}
+
+#banner .banner_text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0256FF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#banner .banner_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Syne', sans-serif;
+    margin: 25px 0 40px;
+}
+
+#banner .banner_text P {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+#banner .banner_text a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f45c20;
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#banner .banner_text a:hover {
+    background: #f45c20;
+    color: #fff;
+}
+
+/* =========================================
+              Banner part end
+========================================= */
+/* =========================================
+              Icon part start
+========================================= */
+#icon {
+    margin-bottom: 50px;
+}
+
+#icon .icon_body i {
+    color: #0256FF;
+    font-size: 30px;
+    width: 130px;
+    height: 130px;
+    background: #EDF3FF;
+    text-align: center;
+    line-height: 130px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#icon .icon_body .icon-2 {
+    background: #FEF3EF;
+    color: #F45C20;
+}
+
+#icon .icon_body .icon-3 {
+    background: #F1FBF3;
+    color: #3DCD5C;
+}
+
+#icon .icon_body .icon-4 {
+    background: #FBF1FB;
+    color: #C13DCE;
+}
+
+#icon .icon_body h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    margin: 50px 0 20px;
+}
+
+#icon .icon_body p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* =========================================
+              Icon part end
+========================================= */
+/* =========================================
+              Mobile-dev part start
+========================================= */
+#mobile_dev .mobile_dev_text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0256FF;
+    font-family: 'DM Sans', sans-serif;
+    margin: 50px 0 20px;
+}
+
+#mobile_dev .mobile_dev_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Syne', sans-serif;
+}
+
+#mobile_dev .mobile_dev_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    margin: 30px 0 50px;
+}
+
+#mobile_dev .mobile_dev_text a {
+    font-size: 14px;
+    font-weight: 500;
+    background: #f45c20;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#mobile_dev .mobile_dev_text a:hover {
+    background: transparent;
+    color: #F45C20;
+}
+
+/* =========================================
+              Mobile-dev part end
+========================================= */
+/* =========================================
+              Project part start
+========================================= */
+#project {
+    padding: 155px 0;
+    background: #0256FF;
+}
+
+#project .project_hed h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+}
+
+#project .project_pera p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#project .project_button>a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f45c20;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 40px;
+    margin-top: 70px;
+    background: #fff;
+    margin-left: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+#project .project_button a:hover {
+    background: #F45C20;
+    color: #fff;
+}
+
+#project .project_img {
+    width: 340px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+
+#project .project_img a .project_img_text {
+    background: #fff;
+    width: 100%;
+    padding: 40px 40px 30px;
+    text-align: center;
+}
+
+#project .project_img a .project_img_text h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* =========================================
+              Project part end
+========================================= */
+/* =========================================
+              Products part start
+========================================= */
+#product {
+    padding: 115px 0;
+}
+
+#product .product_top_text h4 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#product .product_top_text h4 {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#product .product_top_text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Syne', sans-serif;
+    margin: 10px 0 35px;
+}
+
+#product .product_top_text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#product .product_top_text a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f45c20;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+#product .product_top_text a:hover {
+    background: #F45C20;
+    color: #fff;
+}
+
+#product .product_top_img1,
+#product .product_top_img2{
+    width: 48%;
+}
+#product .product_top_img1 img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#product .product_top_img2 img {
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#product .product_bottom_body {
+    padding: 25px 35px 35px;
+    background: #fff;
+    box-shadow: 0px 1px 8px -5px #000;
+}
+
+.product_bottom_body .product_bottom_text>a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin: 40px 0 20px;
+}
+
+.product_bottom_body .product_bottom_text a:hover {
+    color: #0256FF;
+}
+
+.product_bottom_body .product_bottom_text span a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.product_bottom_body .product_bottom_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    margin: 20px 0;
+}
+
+.product_bottom_text .button a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.product_bottom_text .button a:hover {
+    color: #F45C20;
+}
+
+/* =========================================
+              Products part end
+========================================= */
+/* =========================================
+              Banner-2 part start
+========================================= */
+#banner_2 {
+    padding-top: 115px;
+    background:  url(../images/newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 115px;
+}
+
+#banner_2 .overly {
+    background-image: linear-gradient( rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0.068) 130%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#banner_2 .banner_2_text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    margin: 60px 0 20px;
+}
+#banner_2 .banner_2_text h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 50px;
+}
+#banner_2 .banner_2_text input{
+    padding: 20px 20px;
+    width: 360px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#banner_2 .banner_2_text button{
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #f45c20;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 15px;
+}
+#banner_2 .banner_2_text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+}
+#banner_2 .banner_2_text p span a{
+    text-decoration: underline;
+}
+/* =========================================
+              Banner-2 part end
+========================================= */
+/* =========================================
+              Intelligent part start
+========================================= */
+#intelligent{
+    margin-bottom: 75px;
+    background: url(../images/info-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 663px 100%;
+    background-position: right;
+}
+#intelligent .intelligent_text i{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    color: #F45C20;
+    background: #FEF3EF;
+    line-height: 100px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#intelligent .intelligent_text h2{
+    font-size: 53px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Syne', sans-serif;
+    margin: 60px 0 30px;
+}
+#intelligent .intelligent_text p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    margin: 20px 0;
+}
+#intelligent .intelligent_text a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#intelligent .intelligent_text a:hover{
+    color: #f45c20;
+}
+/* =========================================
+              Intelligent part end
+========================================= */
+/* =========================================
+              download part start
+========================================= */
+#download{
+    padding-bottom: 90px;
+}
+#download span h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 35px;
+}
+#download .download_item{
+    padding: 20px 25px;
+}
+#download .download_item .item_img{
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+#download .download_item .item_img .overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0256FF;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#download .download_item .item_img:hover .overly{
+    visibility: visible;
+    opacity: 1;
+}
+.download_item .item_img .overly h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin: 60px 0 10px;
+}
+.download_item .item_img .overly h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+.item_text .textx_left h6{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+.item_text{
+    margin-top: 30px;
+}
+.item_text .textx_left a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+.item_text .item_price p{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #f45c20;
+    background: #FEF3EF;
+}
+/* =========================================
+              download part end
+========================================= */
+/* =========================================
+              footer part start
+========================================= */
+#footer{
+    padding: 150px 0;
+    background-color: #0041C2;
+}
+#footer .foot_text h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 30px;
+}
+#footer .foot_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+#footer .foot_button a{
+    padding: 20px 30px;
+    background: #f45c20;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#footer .foot_button a:hover{
+    background: #fff;
+    color: #f45c20;
+}
+#footer .foot_bottom_text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 75px;
+}
+/* =========================================
+              footer part end
+========================================= */
